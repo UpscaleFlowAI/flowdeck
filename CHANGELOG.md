@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ---
 
+## [0.4.0] — 2026-04-16
+
+### Added
+- AI Workflow Summarizer: ask natural-language questions about your workflow history and get instant one-paragraph answers
+- Cross-platform query support — summarizer pulls data from n8n, Make, and Zapier in a single response
+- Query scoping by client workspace, so you can ask about one client or your entire portfolio
+- Pattern detection that surfaces recurring failure trends (e.g., "this Zap fails every Monday morning")
+
+---
+
 ## [0.3.0] — 2026-03-28
 
 ### Added
