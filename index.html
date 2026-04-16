@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowDeck — One Dashboard for All Your Automations</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            accent: '#6366f1',
+            'accent-dark': '#4f46e5',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-zinc-800 antialiased">
+
+  <!-- Nav -->
+  <nav class="border-b border-stone-200 bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-tight text-zinc-900">
+        <span class="text-accent">Flow</span>Deck
+      </a>
+      <div class="flex items-center gap-8">
+        <a href="#features" class="text-sm text-zinc-500 hover:text-zinc-800 transition">Features</a>
+        <a href="#why" class="text-sm text-zinc-500 hover:text-zinc-800 transition">Why FlowDeck</a>
+        <a href="https://github.com/your-org/flowdeck" class="text-sm font-medium text-white bg-accent hover:bg-accent-dark px-4 py-2 rounded-lg transition">
+          Get Started
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-6 pt-24 pb-20 text-center">
+    <div class="inline-block mb-6 px-3 py-1 text-xs font-medium text-accent bg-indigo-50 rounded-full tracking-wide uppercase">
+      v0.3.0 — Now with multi-workspace support
+    </div>
+    <h1 class="text-5xl md:text-6xl font-bold text-zinc-900 leading-tight max-w-3xl mx-auto">
+      Stop tab-switching.<br>Start monitoring.
+    </h1>
+    <p class="mt-6 text-lg text-zinc-500 max-w-2xl mx-auto leading-relaxed">
+      FlowDeck gives automation agencies a single dashboard to monitor every n8n, Make, and Zapier workflow. See what's running, what's failing, and what needs attention — all in one view.
+    </p>
+    <div class="mt-10 flex items-center justify-center gap-4">
+      <a href="#features" class="bg-accent hover:bg-accent-dark text-white font-medium px-6 py-3 rounded-lg transition shadow-sm shadow-indigo-200">
+        See Features
+      </a>
+      <a href="https://github.com/your-org/flowdeck" class="text-zinc-600 hover:text-zinc-900 font-medium px-6 py-3 rounded-lg border border-stone-300 hover:border-stone-400 transition">
+        View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="bg-white border-y border-stone-200">
+    <div class="max-w-6xl mx-auto px-6 py-20">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-zinc-900">What you get out of the box</h2>
+        <p class="mt-3 text-zinc-500 max-w-xl mx-auto">Three capabilities built for people who manage automations professionally.</p>
+      </div>
+      <div id="features-grid" class="grid md:grid-cols-3 gap-8">
+        <!-- Card 1 -->
+        <div class="p-6 rounded-xl border border-stone-200 hover:border-accent/30 hover:shadow-md transition bg-stone-50/50">
+          <div class="w-10 h-10 rounded-lg bg-indigo-50 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 13h2v8H3zM9 9h2v12H9zM15 5h2v16h-2zM21 1h2v20h-2z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-zinc-900 mb-2">Unified Dashboard</h3>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            See every workflow from n8n, Make, and Zapier in a single sortable table. Group by client, filter by status, and never miss a failure buried in another tab.
+          </p>
+        </div>
+        <!-- Card 2 -->
+        <div class="p-6 rounded-xl border border-stone-200 hover:border-accent/30 hover:shadow-md transition bg-stone-50/50">
+          <div class="w-10 h-10 rounded-lg bg-indigo-50 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6 6 0 10-12 0v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0a3 3 0 11-6 0m6 0H9"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-zinc-900 mb-2">Failure Alerts</h3>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            Get notified by email or Slack the moment a workflow fails. Each alert includes a direct link to the execution log so you can diagnose without hunting.
+          </p>
+        </div>
+        <!-- Card 3 -->
+        <div class="p-6 rounded-xl border border-stone-200 hover:border-accent/30 hover:shadow-md transition bg-stone-50/50">
+          <div class="w-10 h-10 rounded-lg bg-indigo-50 flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-accent" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-zinc-900 mb-2">Multi-Platform Integrations</h3>
+          <p class="text-sm text-zinc-500 leading-relaxed">
+            Connect n8n, Make, and Zapier in under two minutes each. FlowDeck normalizes data across platforms so every workflow speaks the same language.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why FlowDeck -->
+  <section id="why" class="max-w-6xl mx-auto px-6 py-20">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold text-zinc-900 mb-8">Why FlowDeck?</h2>
+      <div class="space-y-6 text-zinc-600 leading-relaxed">
+        <p>
+          If you run an automation agency, you already know the pain: Client A uses Zapier, Client B uses Make, Client C self-hosts n8n, and you're flipping between three browser tabs just to check if everything is still running. When something breaks at midnight, you don't find out until the client emails you in the morning.
+        </p>
+        <p>
+          FlowDeck was built by agency operators who got tired of that workflow. It's a monitoring layer — it reads execution data from each platform's API, normalizes it, and gives you one clean view. You see what's healthy, what's failing, and what hasn't run in suspiciously long. Alerts go out through Slack or email so you can fix things before clients notice.
+        </p>
+        <p>
+          We deliberately kept FlowDeck read-only. It never modifies your workflows, never stores credentials beyond API keys, and never touches execution payloads. You get visibility without risk — that's the deal.
+        </p>
+      </div>
+      <div class="mt-12 grid sm:grid-cols-3 gap-6">
+        <div class="text-center p-6">
+          <div class="text-3xl font-bold text-accent">3</div>
+          <div class="text-sm text-zinc-500 mt-1">Platforms supported</div>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-3xl font-bold text-accent">90s</div>
+          <div class="text-sm text-zinc-500 mt-1">Polling interval (paid)</div>
+        </div>
+        <div class="text-center p-6">
+          <div class="text-3xl font-bold text-accent">2 min</div>
+          <div class="text-sm text-zinc-500 mt-1">Setup per platform</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-stone-200 bg-white">
+    <div class="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="text-sm text-zinc-400">
+        &copy; 2026 FlowDeck. Built for automation professionals.
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="https://github.com/your-org/flowdeck" class="text-sm text-zinc-400 hover:text-zinc-600 transition">GitHub</a>
+        <a href="https://docs.flowdeck.dev" class="text-sm text-zinc-400 hover:text-zinc-600 transition">Docs</a>
+        <a href="https://discord.gg/flowdeck" class="text-sm text-zinc-400 hover:text-zinc-600 transition">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
