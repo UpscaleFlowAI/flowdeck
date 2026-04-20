@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ---
 
+## [0.4.1] — 2026-04-20
+
+### Added
+- WhatsApp contact button on the landing page, linking directly to the FlowDeck support line for one-tap access from mobile
+
+---
+
 ## [0.4.0] — 2026-04-16
 
 ### Added

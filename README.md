@@ -50,6 +50,17 @@ flowdeck/
     └── NEW_FEATURE_TEMPLATE.md
 ```
 
+## FAQ
+
+**Does FlowDeck have access to my workflow data or customer information?**
+No. FlowDeck only reads execution metadata — status, timing, and workflow names. It never touches your workflow payloads, customer data, or credentials. It's read-only by design.
+
+**Can I connect multiple accounts from the same platform?**
+Yes. You can connect as many workspaces as your plan allows. An agency managing 10 clients on Zapier and 5 on Make can monitor all of them from one FlowDeck dashboard.
+
+**What happens if one of my platform API keys expires?**
+FlowDeck detects the broken connection and marks that workspace as "disconnected" in your dashboard. You'll get a one-time alert so you can re-authenticate. It never silently stops monitoring.
+
 ## Contributing
 
 We welcome contributions from the community. Before opening a PR:
