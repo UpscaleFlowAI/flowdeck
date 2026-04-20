@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Added
 - WhatsApp contact button on the landing page, linking directly to the FlowDeck support line for one-tap access from mobile
+- Dark mode toggle in the landing page navbar, with a persisted user preference (stored in `localStorage`) that is restored before first paint to avoid a flash of light content
 
 ---
 
