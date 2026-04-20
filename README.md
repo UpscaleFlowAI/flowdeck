@@ -12,6 +12,16 @@ FlowDeck gives automation agencies and solo builders a single pane of glass to m
 - **Instant failure alerts** — Get notified the moment a workflow fails, not when a client complains.
 - **Built for agencies** — Multi-workspace support so you can manage dozens of clients without losing your mind
 
+## Pricing
+
+| Plan | Price | Polling Interval | Workspaces |
+|------|-------|-----------------|------------|
+| Free | $0/mo | Every 5 minutes | 1 |
+| Pro | $29/mo | Every 90 seconds | 10 |
+| Agency | $79/mo | Every 90 seconds | Unlimited |
+
+All plans include email and Slack alerts. Agency plan adds priority support and custom webhook integrations.
+
 ## Quick Start
 
 ```bash
