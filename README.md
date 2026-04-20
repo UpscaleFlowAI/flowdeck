@@ -9,7 +9,7 @@ FlowDeck gives automation agencies and solo builders a single pane of glass to m
 ## Why FlowDeck?
 
 - **Unified monitoring** — See every workflow across every platform in one view
-- **Instant failure alerts** — Get notified the moment a workflow fails, not when a client complains
+- **Instant failure alerts** — Get notified the moment a workflow fails, not when a client complains.
 - **Built for agencies** — Multi-workspace support so you can manage dozens of clients without losing your mind
 
 ## Quick Start
