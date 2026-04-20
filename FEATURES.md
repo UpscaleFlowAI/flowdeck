@@ -25,3 +25,9 @@ FlowDeck connects to n8n, Make, and Zapier using each platform's official API. S
 ## Direct WhatsApp Support
 
 Every FlowDeck page now includes a direct WhatsApp contact button so you can reach the team from your phone in one tap. The button opens a pre-filled WhatsApp conversation with our support line, letting agency operators skip email queues and get a real human on a connection issue, a billing question, or a platform integration quirk. Response times on WhatsApp target under an hour during weekday business hours, with after-hours messages queued for next-day follow-up.
+
+---
+
+## Dark Mode
+
+FlowDeck's landing page now ships with a built-in dark mode. A small sun/moon toggle lives in the top-right of the navbar and flips the entire page between the default light theme and a low-contrast dark palette that pairs zinc backgrounds with the same indigo accent you see in the light theme. Your choice is remembered in `localStorage` and restored before first paint, so there's no flash of light content when you return. The toggle is keyboard-accessible and labelled for screen readers, keeping the experience consistent for agency operators who prefer a darker UI during long on-call shifts.
